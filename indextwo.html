@@ -20,7 +20,7 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg  shadow-sm navbar-with-shadow">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm navbar-with-shadow">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <i class="bi bi-emoji-laughing"></i>
@@ -42,16 +42,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav justify-content-around"> <!-- Cambios realizados aquí -->
             <li class="nav-item">
-              <a class="nav-link" href="index.html" style="border-left: 4px solid #3600f8; border-right: 4px solid #3600f8; color: #3600f8;"><i class="bi bi-archive-fill"></i>Adobe</a>
+              <a class="nav-link" href="index.html" style="border-left: 4px solid #46b5fe; border-right: 4px solid #46b5fe; color: #46b5fe;"><i class="bi bi-house-door-fill"></i>Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html"><i class="bi bi-archive-fill"></i>No disponible</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"><i class="bi bi-archive-fill"></i>No disponible</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"><i class="bi bi-archive-fill"></i>No disponible</a>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="modoOscuroSwitch">
+                <label class="form-check-label" for="modoOscuroSwitch"> <i class="bi bi-moon-stars"></i> modo oscuro</label>
+              </div>
             </li>
           </ul>
         </div>
@@ -59,8 +56,16 @@
       </div>
     </nav>
 
+    <div class="container-fluid mb-4">
+      <div class="row">
+        <div class="col-12 columna-anuncio">
+          <div class="anuncio"></div>
+        </div>
+      </div>
+    </div>
 
-    <div class="accordion accordion-flush " id="accordionFlushExample">
+
+    <div class="accordion accordion-flush m-4" id="accordionFlushExample">
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
